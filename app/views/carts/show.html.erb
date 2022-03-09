@@ -4,6 +4,9 @@
     <h1>My Cart</h1>
   </header>
 
+  <% if enhanced_cart.product == [] %>
+  <%= render 'empty' %>
+  <% else %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +51,5 @@
       <% end %>
     </div>
   </div>
-
+<% end %>
 </section>
