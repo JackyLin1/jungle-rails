@@ -1,2 +1,34 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Admin Dashboard</h1>
+
+    <table class='table table-striped'>
+      <thead>
+        <tr>
+          <th colspan="2">Total Amount of Products</th>
+          <th><%= @products.length %></th>
+        </tr>
+
+        <tbody>
+            <td colspan='3'>
+              <%= link_to 'Admin Products', 'admin/products#index' %>
+              <% @products.each do |item| %> 
+                <ol><%= item.name %></ol>
+              <% end %>
+            </td>
+        </tbody>
+
+        <tr>
+          <th colspan="2">Total Amount of Categories</th>
+          <th><%= @categories.length %></th>
+        </tr>
+
+        <tbody>
+            <td colspan='3'>
+              <%= link_to 'Admin Products', 'admin/products#index' %>
+              <% @categories.each do |item| %> 
+                <ol><%= item.name %></ol>
+              <% end %>
+            </td>
+        </tbody>
+
+      </thead>
+    </table> 
