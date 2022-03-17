@@ -4,7 +4,14 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## THE WEBSITE
 
-!["screenshot description"] ()
+The Home Page of Jungle
+!["screenshot description"] (https://github.com/JackyLin1/jungle-rails/blob/master/image/HomePage.PNG)
+
+Add anything you like into the shopping cart and checkout
+!["screenshot description"] (https://github.com/JackyLin1/jungle-rails/blob/master/image/ShoppingCart.PNG)
+
+As admin, you can access all the products and organize them by category
+!["screenshot description"] (https://github.com/JackyLin1/jungle-rails/blob/master/image/AdminDashboard.PNG)
 
 ## Additional Steps for Apple M1 Machines
 
